@@ -1,0 +1,21 @@
+.input-field {
+  margin-bottom: 1rem;
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	border-radius: 4px;
+
+	input {
+		height: 42px;
+	}
+	
+	.has-error {
+		border: 1px solid red;
+	}
+
+  .text-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}

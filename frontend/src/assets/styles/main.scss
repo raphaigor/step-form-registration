@@ -1,0 +1,36 @@
+@use './_variables';
+@use './_buttons';
+@use './_form';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 32px;
+}
+
+p {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.text-error {
+  color: red;
+  font-size: 12px;
+}

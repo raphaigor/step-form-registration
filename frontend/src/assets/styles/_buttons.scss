@@ -1,0 +1,42 @@
+@use './_variables';
+
+button {
+  padding: 8px 16px;
+  border-radius: variables.$border-radius;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+
+  &.btn-primary {
+    background-color: variables.$primary-color;
+    color: #fff;
+
+    &:hover {
+      background-color: variables.$primary-color-hover;
+    }
+  }
+
+  &.btn-outline {
+    background: transparent;
+    border: 2px solid variables.$primary-color;
+    color: variables.$primary-color;
+
+    &:hover {
+      background-color: variables.$primary-color;
+      color: #fff;
+    }
+  }
+}
+
+a {
+  &.btn-outline {
+    background: transparent;
+    border: 2px solid variables.$primary-color;
+    color: variables.$primary-color;
+    padding: 8px 16px;
+    border-radius: variables.$border-radius;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}
